@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\source\\repos\\Mycorrhiza\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "en-US_Mods.Mycorrhiza.Items.Materials.hjson",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
+              "RelativeDocumentMoniker": "Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
+              "RelativeToolTip": "Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-26T03:54:08.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FurnitureCommon.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
+              "RelativeDocumentMoniker": "Content\\FurnitureCommon.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
+              "RelativeToolTip": "Content\\FurnitureCommon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:43:58.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HyphumBarPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:34:56.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HyphumBar.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:28:13.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

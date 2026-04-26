@@ -1,0 +1,80 @@
+Mods: {
+	Mycorrhiza: {
+		Items: {
+			Placeables: {
+				Sporewood: {
+					DisplayName: Sporewood
+					Tooltip: ""
+				}
+
+				SporewoodBed: {
+					DisplayName: Sporewood Bed
+					Tooltip: ""
+				}
+
+				SporewoodTable: {
+					DisplayName: Sporewood Table
+					Tooltip: ""
+				}
+
+				SporewoodChair: {
+					DisplayName: Sporewood Chair
+					Tooltip: ""
+				}
+
+				MoldBlock: {
+					DisplayName: Mold Block
+					Tooltip: ""
+				}
+
+				SporewoodWall: {
+					DisplayName: Sporewood Wall
+					Tooltip: ""
+				}
+
+				MycelialConnectivity: {
+					DisplayName: Mycelial Connectivity
+					Tooltip: ""
+				}
+			}
+
+			Weapons: {
+				Melee: {
+					SporewoodSword: {
+						DisplayName: Sporewood Sword
+						Tooltip: ""
+					}
+
+					Saprophyte: {
+						DisplayName: Saprophyte
+						Tooltip: ""
+					}
+				}
+
+				Ranged: {
+					SporewoodBow: {
+						DisplayName: Sporewood Bow
+						Tooltip: ""
+					}
+
+					MycoreBow: {
+						DisplayName: Mycore Bow
+						Tooltip: ""
+					}
+				}
+			}
+
+			Tools: {
+				SporewoodHammer: {
+					DisplayName: Sporewood Hammer
+					Tooltip: ""
+				}
+
+				Pileuslam: {
+					DisplayName: Pileuslam
+					Tooltip: ""
+				}
+			}
+		}
+	}
+}
