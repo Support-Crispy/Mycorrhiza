@@ -22,7 +22,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
         public override void AddRecipes()
         {
             CreateRecipe().
-                AddIngredient(ItemID.IronBar,3).
+                AddIngredient<HyphumOre>(3).
                 AddTile(TileID.Furnaces).
                 Register();
         }

@@ -36,6 +36,31 @@ Mods: {
 					DisplayName: Mycelial Connectivity
 					Tooltip: ""
 				}
+
+				SporewoodChest: {
+					Tooltip: ""
+					DisplayName: Sporewood Chest
+				}
+
+				SporewoodToilet: {
+					DisplayName: Sporewood Toilet
+					Tooltip: ""
+				}
+
+				SporewoodWorkbench: {
+					DisplayName: Sporewood Workbench
+					Tooltip: ""
+				}
+
+				HyphumOre: {
+					DisplayName: Hyphum Ore
+					Tooltip: ""
+				}
+
+				HyphumBrick: {
+					DisplayName: Hyphum Brick
+					Tooltip: ""
+				}
 			}
 
 			Weapons: {
@@ -75,6 +100,16 @@ Mods: {
 					Tooltip: ""
 				}
 			}
+		}
+
+		Tiles: {
+			SporewoodChestPlaced: {
+				Locked: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.Locked
+				MapEntry1: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.MapEntry1
+				MapEntry0: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.MapEntry0
+			}
+
+			HyphumOrePlaced.MapEntry: Hyphum Ore Placed
 		}
 	}
 }

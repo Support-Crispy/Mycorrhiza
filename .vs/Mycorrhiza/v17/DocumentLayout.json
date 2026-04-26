@@ -3,6 +3,118 @@
   "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivity.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MycelialConnectivity.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\VitriolicMushroom.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\VitriolicMushroom.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +123,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\FurnitureCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +150,442 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "VitriolicMushroom.png - PNG [26x28, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\VitriolicMushroom.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\VitriolicMushroom.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\VitriolicMushroom.png - PNG [26x28, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\VitriolicMushroom.png - PNG [26x28, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T07:42:39.982Z",
+              "EditorCaption": " - PNG [26x28, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MycelialConnectivityPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MycelialConnectivityPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:41:51.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MycelialConnectivity.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivity.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MycelialConnectivity.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MycelialConnectivity.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MycelialConnectivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:39:08.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pileuslam.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\Pileuslam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:28:19.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SporewoodHammer.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodHammer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:27:05.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SporewoodWall.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:14:35.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoldBlockPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:08:31.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sporewood.png - PNG [24x22, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png - PNG [24x22, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.png - PNG [24x22, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T07:02:26.428Z",
+              "EditorCaption": " - PNG [24x22, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SporewoodChairPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChairPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:54:08.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SporewoodWallPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodWallPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:11:30.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SporewoodPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T04:41:55.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sporewood.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\Sporewood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T04:35:51.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MoldBlock.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:06:34.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MoldBlock.png - PNG [16x16, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png - PNG [16x16, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlock.png - PNG [16x16, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T07:06:24.406Z",
+              "EditorCaption": " - PNG [16x16, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SporewoodBow.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:47:30.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SporewoodBed.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:01:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SporewoodBed.png - PNG [32x22, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png - PNG [32x22, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBed.png - PNG [32x22, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:04:04.092Z",
+              "EditorCaption": " - PNG [32x22, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MoldBlockPlaced.png - PNG [232x124, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png - PNG [232x124, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\MoldFurniture\\MoldBlockPlaced.png - PNG [232x124, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T07:06:25.341Z",
+              "EditorCaption": " - PNG [232x124, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SporewoodChair.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodChair.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:52:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SporewoodTable.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:46:24.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SporewoodBedPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:02:50.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SporewoodTablePlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTablePlaced.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T06:46:53.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SporewoodPlaced.png - PNG [232x160, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png - PNG [232x160, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodPlaced.png - PNG [232x160, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:26:34.08Z",
+              "EditorCaption": " - PNG [232x160, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SporewoodTable.png - PNG [38x24, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png - PNG [38x24, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodTable.png - PNG [38x24, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:45:48.012Z",
+              "EditorCaption": " - PNG [38x24, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SporewoodBedPlaced.png - PNG [142x30, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png - PNG [142x30, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced.png - PNG [142x30, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:12:03.673Z",
+              "EditorCaption": " - PNG [142x30, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SporewoodBedPlaced_Highlight.png - PNG [150x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png - PNG [150x32, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodBedPlaced_Highlight.png - PNG [150x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:45:43.935Z",
+              "EditorCaption": " - PNG [150x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SporewoodSword.png - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.png - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T04:46:41.1Z",
+              "EditorCaption": " - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FurnitureCommon.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
+              "RelativeDocumentMoniker": "Content\\FurnitureCommon.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
+              "RelativeToolTip": "Content\\FurnitureCommon.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:43:58.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HyphumBarPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:34:56.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HyphumBar.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:28:13.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HyphumBar.png - PNG [34x28, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png - PNG [34x28, 32 bit, PNG]",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.png - PNG [34x28, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-26T06:07:31.198Z",
+              "EditorCaption": " - PNG [34x28, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MycoreBow.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\MycoreBow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:50:10.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Saprophyte.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\Saprophyte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T05:25:56.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SporewoodSword.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs",
+              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs",
+              "RelativeToolTip": "Content\\MycorrhizaBiome\\SporewoodItems\\SporewoodSword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T04:31:22.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "en-US_Mods.Mycorrhiza.Items.Materials.hjson",
               "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
@@ -38,47 +593,7 @@
               "RelativeToolTip": "Localization\\en-US_Mods.Mycorrhiza.Items.Materials.hjson",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-26T03:54:08.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FurnitureCommon.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
-              "RelativeDocumentMoniker": "Content\\FurnitureCommon.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\FurnitureCommon.cs",
-              "RelativeToolTip": "Content\\FurnitureCommon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T03:43:58.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HyphumBarPlaced.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
-              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
-              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBarPlaced.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T03:34:56.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HyphumBar.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
-              "RelativeDocumentMoniker": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Mycorrhiza\\Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
-              "RelativeToolTip": "Content\\MycorrhizaBiome\\HyphumEquipment\\HyphumBar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T03:28:13.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T03:54:08.221Z"
             }
           ]
         }
