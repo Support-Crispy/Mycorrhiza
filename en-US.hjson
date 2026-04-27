@@ -61,6 +61,91 @@ Mods: {
 					DisplayName: Hyphum Brick
 					Tooltip: ""
 				}
+
+				MoldBlockWall: {
+					DisplayName: Mold Block Wall
+					Tooltip: ""
+				}
+
+				PaleMoldBlockWall: {
+					DisplayName: Pale Mold Block Wall
+					Tooltip: ""
+				}
+
+				MoldBed: {
+					DisplayName: Mold Bed
+					Tooltip: ""
+				}
+
+				MoldChair: {
+					DisplayName: Mold Chair
+					Tooltip: ""
+				}
+
+				MoldChest: {
+					DisplayName: Mold Chest
+					Tooltip: ""
+				}
+
+				MoldTable: {
+					DisplayName: Mold Table
+					Tooltip: ""
+				}
+
+				MoldPlatform: {
+					DisplayName: Mold Platform
+					Tooltip: ""
+				}
+
+				MoldToilet: {
+					DisplayName: Mold Toilet
+					Tooltip: ""
+				}
+
+				SporewoodPlatform: {
+					DisplayName: Sporewood Platform
+					Tooltip: ""
+				}
+
+				MoldWorkbench: {
+					DisplayName: Mold Workbench
+					Tooltip: ""
+				}
+
+				MoldDresser: {
+					DisplayName: Mold Dresser
+					Tooltip: ""
+				}
+
+				SporewoodDresser: {
+					DisplayName: Sporewood Dresser
+					Tooltip: ""
+				}
+
+				MoldBathtub: {
+					DisplayName: Mold Bathtub
+					Tooltip: ""
+				}
+
+				MoldBookcase: {
+					DisplayName: Mold Bookcase
+					Tooltip: ""
+				}
+
+				MoldClock: {
+					DisplayName: Mold Clock
+					Tooltip: ""
+				}
+
+				MoldDoor: {
+					DisplayName: Mold Door
+					Tooltip: ""
+				}
+
+				SporewoodClock: {
+					DisplayName: Sporewood Clock
+					Tooltip: ""
+				}
 			}
 
 			Weapons: {
@@ -110,6 +195,15 @@ Mods: {
 			}
 
 			HyphumOrePlaced.MapEntry: Hyphum Ore Placed
+
+			MoldChestPlaced: {
+				MapEntry0: Mods.Mycorrhiza.Tiles.MoldChestPlaced.MapEntry0
+				MapEntry1: Mods.Mycorrhiza.Tiles.MoldChestPlaced.MapEntry1
+				Locked: Mods.Mycorrhiza.Tiles.MoldChestPlaced.Locked
+			}
+
+			MoldDresserPlaced.MapEntry: Mold Dresser Placed
+			SporewoodDresserPlaced.MapEntry: Sporewood Dresser Placed
 		}
 	}
 }

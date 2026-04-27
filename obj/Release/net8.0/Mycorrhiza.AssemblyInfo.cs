@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mycorrhiza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+035dbd2474a9cb5829d062f5a7445178e36b23b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+293d3ce8f1c2118672f4846ca4ac231ff976fd24")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mycorrhiza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mycorrhiza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
