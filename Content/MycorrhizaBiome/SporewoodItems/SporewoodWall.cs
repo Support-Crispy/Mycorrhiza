@@ -6,7 +6,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 {
     public class SporewoodWall : ModItem, ILocalizedModType
     {
-        public new string LocalizationCategory => "Items.Placeables";
+        public new string LocalizationCategory => "Items";
         public override void SetStaticDefaults()
         {
             Item.ResearchUnlockCount = 100;

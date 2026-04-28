@@ -5,7 +5,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
 {
 	public class MycelialConnectivity : ModItem, ILocalizedModType
 	{
-		public new string LocalizationCategory => "Items.Placeables";
+		public new string LocalizationCategory => "Items";
 
 		public override void SetDefaults()
 		{

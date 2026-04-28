@@ -185,6 +185,86 @@ Mods: {
 					Tooltip: ""
 				}
 			}
+
+			MoldBathtub: {
+				DisplayName: Mold Bathtub
+				Tooltip: ""
+			}
+
+			MoldChair: {
+				DisplayName: Mold Chair
+				Tooltip: ""
+			}
+
+			MoldSink: {
+				DisplayName: Mold Sink
+				Tooltip: ""
+			}
+
+			MoldPiano: {
+				DisplayName: Mold Piano
+				Tooltip: ""
+			}
+
+			MoldSofa: {
+				DisplayName: Mold Sofa
+				Tooltip: ""
+			}
+
+			MoldTable: {
+				DisplayName: Mold Table
+				Tooltip: ""
+			}
+
+			MoldToilet: {
+				DisplayName: Mold Toilet
+				Tooltip: ""
+			}
+
+			MoldBlock: {
+				DisplayName: Mold Block
+				Tooltip: ""
+			}
+
+			MoldBlockWall: {
+				DisplayName: Mold Block Wall
+				Tooltip: ""
+			}
+
+			MoldBookcase: {
+				DisplayName: Mold Bookcase
+				Tooltip: ""
+			}
+
+			MoldClock: {
+				DisplayName: Mold Clock
+				Tooltip: ""
+			}
+
+			MoldDresser: {
+				DisplayName: Mold Dresser
+				Tooltip: ""
+			}
+
+			MoldWorkbench: {
+				DisplayName: Mold Workbench
+				Tooltip: ""
+			}
+
+			ParasitizedBunnyKite: {
+				DisplayName: Parasitized Bunny Kite
+				Tooltip: ""
+			}
+
+			SporewoodBookcase: {
+				DisplayName: Sporewood Bookcase
+				Tooltip: ""
+			}
+
+			PileustoneBlock: {
+				DisplayName: Pileustone Block
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -204,6 +284,12 @@ Mods: {
 
 			MoldDresserPlaced.MapEntry: Mold Dresser Placed
 			SporewoodDresserPlaced.MapEntry: Sporewood Dresser Placed
+			PileustoneBlockPlaced.MapEntry: Pileustone Block Placed
+		}
+
+		NPCs: {
+			Moldslime.DisplayName: Moldslime
+			Puffball.DisplayName: Puffball
 		}
 	}
 }

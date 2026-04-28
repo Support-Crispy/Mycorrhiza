@@ -5,7 +5,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 {
 	public class SporewoodHammer : ModItem, ILocalizedModType
 	{
-		public new string LocalizationCategory => "Items.Tools";
+		public new string LocalizationCategory => "Items";
 		public override void SetDefaults()
 		{
 			Item.damage = 10;

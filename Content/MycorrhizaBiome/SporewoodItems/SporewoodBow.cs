@@ -5,7 +5,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 {
     public class SporewoodBow : ModItem, ILocalizedModType
     {
-        public new string LocalizationCategory => "Items.Weapons.Ranged";
+        public new string LocalizationCategory => "Items";
         public override void SetDefaults()
         {
             Item.damage = 8;

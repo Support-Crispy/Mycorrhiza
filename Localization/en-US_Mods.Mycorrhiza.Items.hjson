@@ -1,0 +1,124 @@
+GraySolution: {
+	DisplayName: Gray Solution
+	Tooltip: Placeholder, Finish Me!
+}
+
+HyphumBar: {
+	DisplayName: Hyphum Bar
+	Tooltip: Somehow, the metal has molded...
+}
+
+MoldBed: {
+	DisplayName: Mold Bed
+	Tooltip: Is this safe to sleep on...?
+}
+
+MoldChest: {
+	DisplayName: Snorewood Bed
+	Tooltip: Opening it seems redundant, it feels as if you could thrust your hand straight through.
+}
+
+MoldDoor: {
+	DisplayName: Mold Door
+	Tooltip: Placeholder, Finish Me!
+}
+
+MoldPlatform: {
+	DisplayName: Mold Platform
+	Tooltip: Can this really support someone's weight?
+}
+
+MycelialConnectivity: {
+	DisplayName: Mycelial Connectivity
+	Tooltip: ""
+}
+
+MycorrhizaKey: {
+	DisplayName: Mycorrhiza Key
+	Tooltip: Placeholder, Finish Me!
+}
+
+Sporewood: {
+	DisplayName: Sporewood
+	Tooltip: It smells rotten...
+}
+
+SporewoodBed: {
+	DisplayName: Snorewood Bed
+	Tooltip: Get it?
+}
+
+SporewoodWorkbench: {
+	DisplayName: Sporewood Workbench
+	Tooltip: ""
+}
+
+StillWater: {
+	DisplayName: Still Water
+	Tooltip: Placeholder, Finish Me!
+}
+
+HyphumBrick: {
+	DisplayName: Hyphum Brick
+	Tooltip: ""
+}
+
+PaleMoldBlockWall: {
+	DisplayName: Pale Mold Block Wall
+	Tooltip: ""
+}
+
+SporewoodBow: {
+	DisplayName: Sporewood Bow
+	Tooltip: ""
+}
+
+SporewoodChair: {
+	DisplayName: Sporewood Chair
+	Tooltip: ""
+}
+
+SporewoodChest: {
+	DisplayName: Sporewood Chest
+	Tooltip: ""
+}
+
+SporewoodClock: {
+	DisplayName: Sporewood Clock
+	Tooltip: ""
+}
+
+SporewoodDresser: {
+	DisplayName: Sporewood Dresser
+	Tooltip: ""
+}
+
+SporewoodHammer: {
+	DisplayName: Sporewood Hammer
+	Tooltip: ""
+}
+
+SporewoodPlatform: {
+	DisplayName: Sporewood Platform
+	Tooltip: ""
+}
+
+SporewoodSword: {
+	DisplayName: Sporewood Sword
+	Tooltip: ""
+}
+
+SporewoodTable: {
+	DisplayName: Sporewood Table
+	Tooltip: ""
+}
+
+SporewoodToilet: {
+	DisplayName: Sporewood Toilet
+	Tooltip: ""
+}
+
+SporewoodWall: {
+	DisplayName: Sporewood Wall
+	Tooltip: ""
+}

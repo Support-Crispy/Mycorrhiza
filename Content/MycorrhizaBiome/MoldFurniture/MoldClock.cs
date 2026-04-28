@@ -6,7 +6,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
 {
     public class MoldClock : ModItem, ILocalizedModType
     {
-        public new string LocalizationCategory => "Items.Placeables";
+        public new string LocalizationCategory => "Items";
         public override void SetDefaults()
         {
             Item.DefaultToPlaceableTile(ModContent.TileType<MoldClockPlaced>());

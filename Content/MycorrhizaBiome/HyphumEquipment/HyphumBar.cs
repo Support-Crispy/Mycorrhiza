@@ -7,7 +7,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 {
     public class HyphumBar : ModItem, ILocalizedModType
     {
-        public new string LocalizationCategory => "Items.Materials";
+        public new string LocalizationCategory => "Items";
         public override void SetStaticDefaults()
         {
             Item.ResearchUnlockCount = 25;
