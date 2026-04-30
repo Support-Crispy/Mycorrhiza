@@ -20,17 +20,17 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             itemGroup = ContentSamples.CreativeHelper.ItemGroup.Wood;
         }
 
-       // public override void AddRecipes()
-       // {
-          //  CreateRecipe().
-          //      AddIngredient<SporewoodPlatform>(2).
-          //      DisableDecraft().
-          //      Register();
-          //  CreateRecipe().
-          //      AddIngredient<SporewoodWall>(4).
-          //      AddTile(TileID.WorkBenches).
-          //      DisableDecraft().
-          //      Register();
-        // }
+        public override void AddRecipes()
+        {
+            CreateRecipe().
+                AddIngredient<SporewoodPlatform>(2).
+                DisableDecraft().
+                Register();
+            CreateRecipe().
+                AddIngredient<SporewoodWall>(4).
+                AddTile(TileID.WorkBenches).
+                DisableDecraft().
+                Register();
+         }
     }
 }

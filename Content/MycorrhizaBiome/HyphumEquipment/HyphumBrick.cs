@@ -17,10 +17,17 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 
         public override void AddRecipes()
         {
-            CreateRecipe().
+            CreateRecipe(5).
                 AddIngredient<HyphumOre>(1).
+                AddIngredient<BiomeTiles.PileustoneBlock>(5).
                 AddTile(TileID.Furnaces).
                 Register();
+
+            CreateRecipe().
+                AddIngredient<HyphumBrickWall>(4).
+                DisableDecraft().
+                Register();
+       
         }
     }
 }

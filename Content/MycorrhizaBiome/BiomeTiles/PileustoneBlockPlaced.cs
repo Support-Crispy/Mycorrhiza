@@ -11,11 +11,11 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles
 
         public override void SetStaticDefaults()
         {
-            Main.tileLighted[Type] = true;
             Main.tileSolid[Type] = true;
+            Main.tileBlockLight[Type] = true;
 
 
-            AddMapEntry(new Color(250, 250, 250), CreateMapEntryName());
+            AddMapEntry(new Color(255, 255, 255), CreateMapEntryName());
             MineResist = 2f;
             MinPick = 65;
             HitSound = SoundID.Tink;

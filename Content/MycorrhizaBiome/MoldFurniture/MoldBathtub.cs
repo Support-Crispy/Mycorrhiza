@@ -9,7 +9,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
         public new string LocalizationCategory => "Items";
         public override void SetDefaults()
         {
-            //Item.DefaultToPlaceableTile(ModContent.TileType<MoldBathtubPlaced>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<MoldBathtubPlaced>());
             Item.value = Item.sellPrice(copper: 60);
         }
 

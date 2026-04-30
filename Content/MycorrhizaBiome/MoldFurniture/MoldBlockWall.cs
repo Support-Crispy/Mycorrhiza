@@ -9,7 +9,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
         public new string LocalizationCategory => "Items";
         public override void SetStaticDefaults()
         {
-            Item.ResearchUnlockCount = 100;
+            Item.ResearchUnlockCount = 400;
         }
 
         public override void SetDefaults() => Item.DefaultToPlaceableWall(ModContent.WallType<MoldBlockWallPlaced>());

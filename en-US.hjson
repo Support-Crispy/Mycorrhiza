@@ -265,6 +265,96 @@ Mods: {
 				DisplayName: Pileustone Block
 				Tooltip: ""
 			}
+
+			MoldySeeds: {
+				DisplayName: Moldy Seeds
+				Tooltip: ""
+			}
+
+			MycorrhizaGrassWall: {
+				DisplayName: Mycorrhiza Grass Wall
+				Tooltip: ""
+			}
+
+			VitriolicMushroom: {
+				DisplayName: Vitriolic Mushroom
+				Tooltip: ""
+			}
+
+			SporewoodBathtub: {
+				DisplayName: Sporewood Bathtub
+				Tooltip: ""
+			}
+
+			RottingStalk: {
+				DisplayName: Rotting Stalk
+				Tooltip: ""
+			}
+
+			Fusarium: {
+				DisplayName: Fusarium
+				Tooltip: ""
+			}
+
+			Mycosis: {
+				DisplayName: Mycosis
+				Tooltip: ""
+			}
+
+			Polyporaxe: {
+				DisplayName: Polyporaxe
+				Tooltip: ""
+			}
+
+			StonefeederPickaxe: {
+				DisplayName: Stonefeeder Pickaxe
+				Tooltip: ""
+			}
+
+			ThePuppeteer: {
+				DisplayName: The Puppeteer
+				Tooltip: ""
+			}
+
+			RhyzalBreastplate: {
+				DisplayName: Rhyzal Breastplate
+				Tooltip: ""
+			}
+
+			RhyzalGreaves: {
+				DisplayName: Rhyzal Greaves
+				Tooltip: ""
+			}
+
+			RhyzalHelmet: {
+				DisplayName: Rhyzal Helmet
+				Tooltip: ""
+			}
+
+			HyphumBrickWall: {
+				DisplayName: Hyphum Brick Wall
+				Tooltip: ""
+			}
+
+			HungryMoldBlock: {
+				DisplayName: Hungry Mold Block
+				Tooltip: ""
+			}
+
+			SporewoodBreastplate: {
+				DisplayName: Sporewood Breastplate
+				Tooltip: ""
+			}
+
+			SporewoodGreaves: {
+				DisplayName: Sporewood Greaves
+				Tooltip: ""
+			}
+
+			SporewoodHelmet: {
+				DisplayName: Sporewood Helmet
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -285,11 +375,22 @@ Mods: {
 			MoldDresserPlaced.MapEntry: Mold Dresser Placed
 			SporewoodDresserPlaced.MapEntry: Sporewood Dresser Placed
 			PileustoneBlockPlaced.MapEntry: Pileustone Block Placed
+			MoldyGrassPlaced.MapEntry: Moldy Grass Placed
 		}
 
 		NPCs: {
 			Moldslime.DisplayName: Moldslime
 			Puffball.DisplayName: Puffball
+			ParasitizedGoldfish.DisplayName: Parasitized Goldfish
+			ParasitizedBunny.DisplayName: Parasitized Bunny
+			Sporewalker.DisplayName: Sporewalker
+		}
+
+		Biomes: {
+			MycorrhizaBiome: {
+				DisplayName: Mycorrhiza Biome
+				TownNPCDialogueName: the Mycorrhiza Biome
+			}
 		}
 	}
 }

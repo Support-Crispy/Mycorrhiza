@@ -17,7 +17,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
         public override void AddRecipes()
         {
             CreateRecipe().
-                AddIngredient<SporewoodItems.Sporewood>(10).
+                AddIngredient<BiomeTiles.PileustoneBlock>(2).
                 AddTile(TileID.MeatGrinder).
                 Register();
         }

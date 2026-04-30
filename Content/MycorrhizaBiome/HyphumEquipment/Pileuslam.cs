@@ -27,7 +27,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 		{
 			CreateRecipe().
 				AddIngredient<HyphumBar>(10).
-				AddTile(TileID.Anvils).
+                AddIngredient<Materials.RottingStalk>(5).
+                AddTile(TileID.Anvils).
 				Register();
 		}
 	}

@@ -5,17 +5,20 @@ GraySolution: {
 
 HyphumBar: {
 	DisplayName: Hyphum Bar
-	Tooltip: Somehow, the metal has molded...
+	Tooltip: "'Somehow, the metal has molded...'"
+}
+
+HungryMoldBlock: {
 }
 
 MoldBed: {
 	DisplayName: Mold Bed
-	Tooltip: Is this safe to sleep on...?
+	Tooltip: "'You sink right in...'"
 }
 
 MoldChest: {
-	DisplayName: Snorewood Bed
-	Tooltip: Opening it seems redundant, it feels as if you could thrust your hand straight through.
+	DisplayName: Mold Chest
+	Tooltip: "'Opening it seems redundant, it feels as if you could thrust your hand straight through.'"
 }
 
 MoldDoor: {
@@ -23,9 +26,23 @@ MoldDoor: {
 	Tooltip: Placeholder, Finish Me!
 }
 
+MoldPiano: {
+}
+
 MoldPlatform: {
 	DisplayName: Mold Platform
-	Tooltip: Can this really support someone's weight?
+	Tooltip: "'Can this really support someone's weight?'"
+}
+
+MoldSink: {
+}
+
+MoldSofa: {
+}
+
+MustySpores: {
+	DisplayName: Musty Spores
+	Tooltip: "'They cling in your pores'"
 }
 
 MycelialConnectivity: {
@@ -40,12 +57,12 @@ MycorrhizaKey: {
 
 Sporewood: {
 	DisplayName: Sporewood
-	Tooltip: It smells rotten...
+	Tooltip: "'It smells rotten...'"
 }
 
 SporewoodBed: {
-	DisplayName: Snorewood Bed
-	Tooltip: Get it?
+	DisplayName: Sporewood Bed
+	Tooltip: ""
 }
 
 SporewoodWorkbench: {
@@ -66,6 +83,9 @@ HyphumBrick: {
 PaleMoldBlockWall: {
 	DisplayName: Pale Mold Block Wall
 	Tooltip: ""
+}
+
+ParasitizedBunnyKite: {
 }
 
 SporewoodBow: {
@@ -120,5 +140,13 @@ SporewoodToilet: {
 
 SporewoodWall: {
 	DisplayName: Sporewood Wall
+	Tooltip: ""
+}
+
+VitriolicMushroom: {
+}
+
+MoldyGrassSeeds: {
+	DisplayName: Moldy Grass Seeds
 	Tooltip: ""
 }

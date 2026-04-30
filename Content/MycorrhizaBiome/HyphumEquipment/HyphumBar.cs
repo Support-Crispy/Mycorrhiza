@@ -25,6 +25,10 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
                 AddIngredient<HyphumOre>(3).
                 AddTile(TileID.Furnaces).
                 Register();
+
+            Recipe.Create(ItemID.Magiluminescence, 1).AddIngredient<HyphumBar>(12).AddIngredient(ItemID.Topaz, 5).AddTile(TileID.Anvils).Register();
+            Recipe.Create(ItemID.ShadowCandle, 1).AddIngredient<HyphumBar>(3).AddIngredient(ItemID.Torch, 1).AddTile(TileID.WorkBenches).AddCondition(Condition.InGraveyard).Register();
+
         }
     }
 }
