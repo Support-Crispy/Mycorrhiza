@@ -27,8 +27,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
 		}
 		*/
 
-        //public override int BiomeTorchItemType => ModContent.ItemType<RhyzalTorch>();
-        //public override int BiomeCampfireItemType => ModContent.ItemType<RhyzalCampfire>();
+        public override int BiomeTorchItemType => ModContent.ItemType<MycorrhizaTorch>();
+        public override int BiomeCampfireItemType => ModContent.ItemType<MycorrhizaCampfire>();
 
         // Populate the Bestiary Filter
         public override string BestiaryIcon => base.BestiaryIcon;

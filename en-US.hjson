@@ -355,6 +355,91 @@ Mods: {
 				DisplayName: Sporewood Helmet
 				Tooltip: ""
 			}
+
+			RhyzalHat: {
+				DisplayName: Rhyzal Hat
+				Tooltip: ""
+			}
+
+			MycorrhizaTorch: {
+				DisplayName: Mycorrhiza Torch
+				Tooltip: ""
+			}
+
+			HyphalTorch: {
+				DisplayName: Hyphal Torch
+				Tooltip: ""
+			}
+
+			MycorrhizaCampfire: {
+				DisplayName: Mycorrhiza Campfire
+				Tooltip: ""
+			}
+
+			HyphalCampfire: {
+				DisplayName: Hyphal Campfire
+				Tooltip: ""
+			}
+
+			SporewoodLamp: {
+				DisplayName: Sporewood Lamp
+				Tooltip: ""
+			}
+
+			HardenedPileusandBlock: {
+				DisplayName: Hardened Pileusand Block
+				Tooltip: ""
+			}
+
+			PileusandstoneBlock: {
+				DisplayName: Pileusandstone Block
+				Tooltip: ""
+			}
+
+			MycorrhizaChest: {
+				DisplayName: Mycorrhiza Chest
+				Tooltip: ""
+			}
+
+			VitriolicPowder: {
+				DisplayName: Vitriolic Powder
+				Tooltip: ""
+			}
+
+			GalvanicFilament: {
+				DisplayName: Galvanic Filament
+				Tooltip: ""
+			}
+
+			HyphalArrow: {
+				DisplayName: Hyphal Arrow
+				Tooltip: ""
+			}
+
+			HyphalBullet: {
+				DisplayName: Hyphal Bullet
+				Tooltip: ""
+			}
+
+			HyphalDart: {
+				DisplayName: Hyphal Dart
+				Tooltip: ""
+			}
+
+			HyphalFlask: {
+				DisplayName: Hyphal Flask
+				Tooltip: ""
+			}
+
+			HyphalSparks: {
+				DisplayName: Hyphal Sparks
+				Tooltip: ""
+			}
+
+			LivingHyphalFireBlock: {
+				DisplayName: Living Hyphal Fire Block
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -376,6 +461,8 @@ Mods: {
 			SporewoodDresserPlaced.MapEntry: Sporewood Dresser Placed
 			PileustoneBlockPlaced.MapEntry: Pileustone Block Placed
 			MoldyGrassPlaced.MapEntry: Moldy Grass Placed
+			HardenedPileusandBlockPlaced.MapEntry: Hardened Pileusand Block Placed
+			PileusandstoneBlockPlaced.MapEntry: Pileusandstone Block Placed
 		}
 
 		NPCs: {
@@ -384,6 +471,7 @@ Mods: {
 			ParasitizedGoldfish.DisplayName: Parasitized Goldfish
 			ParasitizedBunny.DisplayName: Parasitized Bunny
 			Sporewalker.DisplayName: Sporewalker
+			ParasitizedPenguin.DisplayName: Parasitized Penguin
 		}
 
 		Biomes: {

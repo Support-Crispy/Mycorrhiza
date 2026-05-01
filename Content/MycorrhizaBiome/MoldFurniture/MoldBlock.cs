@@ -20,6 +20,20 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
                 AddIngredient<BiomeTiles.PileustoneBlock>(2).
                 AddTile(TileID.MeatGrinder).
                 Register();
+
+            CreateRecipe().
+                AddIngredient<MoldBlockWall>(4).
+                AddTile(TileID.WorkBenches).
+                Register();
+
+            CreateRecipe().
+                AddIngredient<PaleMoldBlockWall>(4).
+                AddTile(TileID.WorkBenches).
+                Register();
+
+            CreateRecipe().
+                AddIngredient<MoldPlatform>(2).
+                Register();
         }
     }
 }
