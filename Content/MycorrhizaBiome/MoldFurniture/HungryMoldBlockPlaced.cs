@@ -16,6 +16,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
             Main.tileBlockLight[Type] = true;
 
             AddMapEntry(new Color(100, 150, 100));
+            DustType = ModContent.DustType<Dusts.HungryMoldDust>();
         }
 
 

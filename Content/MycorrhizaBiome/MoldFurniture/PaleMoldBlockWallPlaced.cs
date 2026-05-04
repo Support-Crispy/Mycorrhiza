@@ -15,6 +15,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
             VanillaFallbackOnModDeletion = WallID.DiamondGemspark;
 
             AddMapEntry(new Color(150, 150, 150));
+
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
+
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

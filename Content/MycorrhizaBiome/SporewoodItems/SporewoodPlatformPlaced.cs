@@ -37,7 +37,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 			TileObjectData.newTile.UsesCustomCanPlace = false;
 			TileObjectData.newTile.LavaDeath = true;
 			TileObjectData.addTile(Type);
-		}
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
+        }
 
 		public override void PostSetDefaults() => Main.tileNoSunLight[Type] = false;
 

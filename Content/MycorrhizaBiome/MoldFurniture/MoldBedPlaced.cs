@@ -38,15 +38,11 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
 
 			// Etc
 			AddMapEntry(new Color(191, 142, 111), Language.GetText("ItemName.Bed"));
-		}
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
 
-		public override bool CreateDust(int i, int j, ref int type)
-		{
-			Dust.NewDust(new Vector2(i, j) * 16f, 16, 16, DustID.WoodFurniture, 0f, 0f, 1, new Color(255, 255, 255), 1f);
-			return false;
-		}
+        }
 
-		public override bool HasSmartInteract(int i, int j, SmartInteractScanSettings settings)
+        public override bool HasSmartInteract(int i, int j, SmartInteractScanSettings settings)
 		{
 			return true;
 		}

@@ -46,6 +46,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
 
             // Assets
             flameTexture = ModContent.Request<Texture2D>(Texture + "_Flame");
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override void MouseOver(int i, int j)

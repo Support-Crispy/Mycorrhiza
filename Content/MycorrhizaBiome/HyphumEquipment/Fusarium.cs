@@ -11,11 +11,14 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 	{
 		public new string LocalizationCategory => "Items";
 
-		public override void SetDefaults()
-		{
-			Item.width = 32;
-			Item.height = 32;
-		}
+        public override void SetDefaults()
+        {
+            // This method quickly sets the whip's properties.
+            // Mouse over to see its parameters.
+            Item.DefaultToWhip(ModContent.ProjectileType<FusariumWhip>(), 20, 2, 4);
+            Item.rare = ItemRarityID.Green;
+            Item.channel = true;
+        }
 
         public override void AddRecipes()
         {
@@ -23,6 +26,12 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
                 AddIngredient<HyphumBar>(12).
                 AddTile(TileID.Anvils).
                 Register();
+        }
+
+        // Makes the whip receive melee prefixes
+        public override bool MeleePrefix()
+        {
+            return true;
         }
     }
 }

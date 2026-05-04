@@ -68,22 +68,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             TileObjectData.addTile(Type);
 
             LockedText = this.GetLocalization("Locked");
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
-
-        // This example shows using GetItemDrops to manually decide item drops. This example is for a tile with a TileObjectData.
-        // This example is commented out because the RegisterItemDrop line in SetStaticDefaults above handles this situation and is the recommended approach, but the code is still useful to learn from if conditional drops need to be implemented.
-        /*
-		public override IEnumerable<Item> GetItemDrops(int i, int j) {
-			Tile tile = Main.tile[i, j];
-			int style = TileObjectData.GetTileStyle(tile);
-			if (style == 0) {
-				yield return new Item(ModContent.ItemType<Items.Placeable.Furniture.ExampleChest>());
-			}
-			if (style == 1) {
-				yield return new Item(ModContent.ItemType<Items.Placeable.Furniture.ExampleChest>());
-			}
-		}
-		*/
 
         public override ushort GetMapOption(int i, int j)
         {

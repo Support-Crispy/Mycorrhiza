@@ -84,6 +84,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
             // Combine it all together to get a HH:MM output
             Main.NewText(Language.GetTextValue("CLI.Time", $"{hours}:{minutes} {morningOrEvening}"), 255, 240, 20);
             return true;
+
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
+
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

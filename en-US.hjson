@@ -440,6 +440,21 @@ Mods: {
 				DisplayName: Living Hyphal Fire Block
 				Tooltip: ""
 			}
+
+			MycorrhizaWaterFountain: {
+				DisplayName: Mycorrhiza Water Fountain
+				Tooltip: ""
+			}
+
+			Whitecurrant: {
+				DisplayName: Whitecurrant
+				Tooltip: ""
+			}
+
+			PileustoneBrick: {
+				DisplayName: Pileustone Brick
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -463,6 +478,7 @@ Mods: {
 			MoldyGrassPlaced.MapEntry: Moldy Grass Placed
 			HardenedPileusandBlockPlaced.MapEntry: Hardened Pileusand Block Placed
 			PileusandstoneBlockPlaced.MapEntry: Pileusandstone Block Placed
+			PileustoneBrickPlaced.MapEntry: Pileustone Brick Placed
 		}
 
 		NPCs: {
@@ -480,5 +496,7 @@ Mods: {
 				TownNPCDialogueName: the Mycorrhiza Biome
 			}
 		}
+
+		Projectiles.FusariumWhip.DisplayName: Fusarium Whip
 	}
 }

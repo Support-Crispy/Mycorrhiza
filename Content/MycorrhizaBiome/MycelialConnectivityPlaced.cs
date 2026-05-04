@@ -28,7 +28,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
             TileID.Sets.DisableSmartCursor[Type] = true;
             TileID.Sets.FramesOnKillWall[Type] = true;
             TileID.Sets.DisableSmartCursor[Type] = true;
-            DustType = DustID.WoodFurniture;
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
             AddMapEntry(new Color(99, 50, 30), Language.GetText("MapObject.Painting"));
         }
     }

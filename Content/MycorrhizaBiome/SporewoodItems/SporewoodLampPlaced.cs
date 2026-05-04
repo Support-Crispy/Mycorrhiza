@@ -35,6 +35,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             TileObjectData.newTile.LavaPlacement = LiquidPlacement.NotAllowed;
             TileObjectData.addTile(Type);
 
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
+
             // Etc
             AddMapEntry(new Color(253, 221, 3), Language.GetText("MapObject.FloorLamp"));
 

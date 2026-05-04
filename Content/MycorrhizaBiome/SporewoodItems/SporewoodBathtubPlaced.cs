@@ -23,7 +23,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
             AddMapEntry(new Color(200, 200, 200), Language.GetText("MapObject.Bathtub"));
             AdjTiles = [TileID.Bathtubs];
-            DustType = -1;
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override bool CreateDust(int i, int j, ref int type)

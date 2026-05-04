@@ -37,9 +37,12 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
 			TileObjectData.newTile.UsesCustomCanPlace = false;
 			TileObjectData.newTile.LavaDeath = true;
 			TileObjectData.addTile(Type);
-		}
 
-		public override void PostSetDefaults() => Main.tileNoSunLight[Type] = false;
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
+
+        }
+
+        public override void PostSetDefaults() => Main.tileNoSunLight[Type] = false;
 
 		public override void NumDust(int i, int j, bool fail, ref int num) => num = fail ? 1 : 3;
 	}

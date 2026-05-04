@@ -32,6 +32,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
 
             // Etc
             AddMapEntry(new Color(200, 200, 200), Language.GetText("ItemName.WorkBench"));
+
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
+
         }
 
         public override void NumDust(int x, int y, bool fail, ref int num)

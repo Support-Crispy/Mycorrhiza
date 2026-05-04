@@ -31,7 +31,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
             TileID.Sets.InteractibleByNPCs[Type] = true;
             TileID.Sets.Campfire[Type] = true;
 
-            DustType = -1; // No dust when mined.
             AdjTiles = [TileID.Campfire];
 
             // Placement
@@ -44,6 +43,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
 
             // Assets
             flameTexture = ModContent.Request<Texture2D>(Texture + "_Flame");
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override void NearbyEffects(int i, int j, bool closer)

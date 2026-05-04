@@ -48,9 +48,11 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
 			];
 			TileObjectData.newTile.LavaDeath = false;
 			TileObjectData.addTile(Type);
-		}
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
 
-		public override LocalizedText DefaultContainerName(int frameX, int frameY)
+        }
+
+        public override LocalizedText DefaultContainerName(int frameX, int frameY)
 		{
 			return CreateMapEntryName();
 		}

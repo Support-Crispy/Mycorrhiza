@@ -19,6 +19,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
             TileID.Sets.NeedsGrassFraming[Type] = true;
 
             AddMapEntry(new Color(100, 150, 100));
+            DustType = ModContent.DustType<Dusts.MycoPlantDust>();
         }
 
         private static bool IsExposedToAir(int x, int y)

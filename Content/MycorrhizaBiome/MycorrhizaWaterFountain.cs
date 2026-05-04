@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 namespace Mycorrhiza.Content.MycorrhizaBiome
 
 {
-    public class MycorrhizaChest : ModItem, ILocalizedModType
+    public class MycorrhizaWaterFountain : ModItem, ILocalizedModType
     {
         public new string LocalizationCategory => "Items";
 

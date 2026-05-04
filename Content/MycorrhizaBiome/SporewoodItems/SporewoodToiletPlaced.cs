@@ -49,6 +49,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(1); // Facing right will use the second texture style
             TileObjectData.addTile(Type);
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

@@ -32,6 +32,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 
             // Etc
             AddMapEntry(new Color(200, 200, 200), Language.GetText("ItemName.WorkBench"));
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override void NumDust(int x, int y, bool fail, ref int num)

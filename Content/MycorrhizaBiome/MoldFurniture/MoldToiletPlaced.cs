@@ -49,6 +49,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(1); // Facing right will use the second texture style
             TileObjectData.addTile(Type);
+
+            DustType = ModContent.DustType<Dusts.MycoMoldDust>();
+
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

@@ -20,6 +20,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles.Desert
             MinPick = 65;
             HitSound = SoundID.Tink;
 
+            DustType = ModContent.DustType<Dusts.MycoSandDust>();
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

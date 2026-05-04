@@ -28,6 +28,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 
             // Etc
             AddMapEntry(new Color(200, 200, 200), Language.GetText("ItemName.GrandfatherClock"));
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
         }
 
         public override bool RightClick(int x, int y)

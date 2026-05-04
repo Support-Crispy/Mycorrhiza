@@ -48,7 +48,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 			];
 			TileObjectData.newTile.LavaDeath = false;
 			TileObjectData.addTile(Type);
-		}
+
+            DustType = ModContent.DustType<Dusts.SporewoodDust>();
+        }
 
 		public override LocalizedText DefaultContainerName(int frameX, int frameY)
 		{
