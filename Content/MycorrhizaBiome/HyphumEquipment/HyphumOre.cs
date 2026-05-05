@@ -11,6 +11,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
         public override void SetStaticDefaults()
         {
             Item.ResearchUnlockCount = 100;
+            Item.rare = ItemRarityID.Blue;
         }
 
         public override void SetDefaults() => Item.DefaultToPlaceableTile(ModContent.TileType<HyphumOrePlaced>());

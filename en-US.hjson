@@ -455,6 +455,21 @@ Mods: {
 				DisplayName: Pileustone Brick
 				Tooltip: ""
 			}
+
+			WoodApple: {
+				DisplayName: Wood Apple
+				Tooltip: ""
+			}
+
+			PileusandBlock: {
+				DisplayName: Pileusand Block
+				Tooltip: ""
+			}
+
+			MycoBossSummon: {
+				DisplayName: Myco Boss Summon
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -497,6 +512,11 @@ Mods: {
 			}
 		}
 
-		Projectiles.FusariumWhip.DisplayName: Fusarium Whip
+		Projectiles: {
+			FusariumWhip.DisplayName: Fusarium Whip
+			MycosisYoyo.DisplayName: Mycosis Yoyo
+			FallingPileusandBall.DisplayName: Falling Pileusand Ball
+			Pileusandball.DisplayName: Pileusandball
+		}
 	}
 }

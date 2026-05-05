@@ -1,3 +1,6 @@
+GalvanicFilament: {
+}
+
 GraySolution: {
 	DisplayName: Gray Solution
 	Tooltip: Placeholder, Finish Me!
@@ -50,9 +53,18 @@ MycelialConnectivity: {
 	Tooltip: ""
 }
 
+MycoBossSummon: {
+}
+
+MycorrhizaChest: {
+}
+
 MycorrhizaKey: {
 	DisplayName: Mycorrhiza Key
 	Tooltip: Placeholder, Finish Me!
+}
+
+MycorrhizaWaterFountain: {
 }
 
 Sporewood: {
@@ -93,6 +105,9 @@ SporewoodBow: {
 	Tooltip: ""
 }
 
+SporewoodBreastplate: {
+}
+
 SporewoodChair: {
 	DisplayName: Sporewood Chair
 	Tooltip: ""
@@ -111,6 +126,9 @@ SporewoodClock: {
 SporewoodDresser: {
 	DisplayName: Sporewood Dresser
 	Tooltip: ""
+}
+
+SporewoodGreaves: {
 }
 
 SporewoodHammer: {
@@ -143,7 +161,13 @@ SporewoodWall: {
 	Tooltip: ""
 }
 
+ThePuppeteer: {
+}
+
 VitriolicMushroom: {
+}
+
+VitriolicPowder: {
 }
 
 MoldyGrassSeeds: {
