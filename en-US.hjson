@@ -470,6 +470,46 @@ Mods: {
 				DisplayName: Myco Boss Summon
 				Tooltip: ""
 			}
+
+			PileustoneBlockWall: {
+				DisplayName: Pileustone Block Wall
+				Tooltip: ""
+			}
+
+			MycorrhizaShelfWall: {
+				DisplayName: Mycorrhiza Shelf Wall
+				Tooltip: ""
+			}
+
+			RottingAltarReplica: {
+				DisplayName: Rotting Altar Replica
+				Tooltip: ""
+			}
+
+			HollowWoodfin: {
+				DisplayName: Hollow Woodfin
+				Tooltip: ""
+			}
+
+			MycorrhizalCrate: {
+				DisplayName: Mycorrhizal Crate
+				Tooltip: ""
+			}
+
+			RottingCrate: {
+				DisplayName: Rotting Crate
+				Tooltip: ""
+			}
+
+			Sporeflopper: {
+				DisplayName: Sporeflopper
+				Tooltip: ""
+			}
+
+			Vereyfin: {
+				DisplayName: Vereyfin
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
@@ -517,6 +557,8 @@ Mods: {
 			MycosisYoyo.DisplayName: Mycosis Yoyo
 			FallingPileusandBall.DisplayName: Falling Pileusand Ball
 			Pileusandball.DisplayName: Pileusandball
+			MycorrhizaPowderProjectile.DisplayName: Mycorrhiza Powder Projectile
+			VitriolicPowderSpray.DisplayName: Vitriolic Powder Spray
 		}
 	}
 }

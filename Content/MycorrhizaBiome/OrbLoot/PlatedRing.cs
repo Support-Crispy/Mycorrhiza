@@ -1,11 +1,13 @@
 using Terraria;
 using Terraria.ModLoader;
 
+
 //Placeholder, finish me!
 
-namespace Mycorrhiza.Content.MycorrhizaBiome
+
+namespace Mycorrhiza.Content.MycorrhizaBiome.OrbLoot
 {
-	public class StillWater : ModItem, ILocalizedModType
+	public class PlatedRing : ModItem, ILocalizedModType
 	{
 		public new string LocalizationCategory => "Items";
 

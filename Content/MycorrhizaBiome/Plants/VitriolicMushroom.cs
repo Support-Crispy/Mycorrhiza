@@ -4,6 +4,8 @@ using Terraria.ModLoader;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
 
+	//Jarvis how to make plant
+
 {
 	public class VitriolicMushroom : ModItem, ILocalizedModType
 	{

@@ -116,7 +116,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 
                 if (i == controlPoints.Count - 2)
                 {
-                    //Adds a subtle pulse to the tip
+                    //Adds a subtle pulse to the tip (gross)
                     scale = 1f + (float)Math.Sin(Main.GameUpdateCount * 0.1f) * 0.05f;
                 }
 

@@ -25,8 +25,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
 
-            Item.pick = 70; // How strong the pickaxe is, see https://terraria.wiki.gg/wiki/Pickaxe_power for a list of common values
-            Item.attackSpeedOnlyAffectsWeaponAnimation = true; // Melee speed affects how fast the tool swings for damage purposes, but not how fast it can dig
+            Item.pick = 70; 
+            Item.attackSpeedOnlyAffectsWeaponAnimation = true;
         }
 
         public override void AddRecipes()

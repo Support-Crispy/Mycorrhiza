@@ -2,6 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
+//Placeholder, finish me! (in the hardmode update :3)
+
 namespace Mycorrhiza.Content.MycorrhizaBiome.HyphalSparks
 {
 	public class HyphalFlask : ModItem, ILocalizedModType

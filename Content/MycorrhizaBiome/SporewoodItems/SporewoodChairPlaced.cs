@@ -14,8 +14,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
 {
     public class SporewoodChairPlaced : ModTile
     {
-        public const int NextStyleHeight = 40; // Calculated by adding all CoordinateHeights + CoordinatePaddingFix.Y applied to all of them + 2
-
+        public const int NextStyleHeight = 40; 
         public override void SetStaticDefaults()
         {
             // Properties
@@ -23,8 +22,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
             Main.tileNoAttach[Type] = true;
             Main.tileLavaDeath[Type] = true;
             TileID.Sets.HasOutlines[Type] = false;
-            TileID.Sets.CanBeSatOnForNPCs[Type] = true; // Facilitates calling ModifySittingTargetInfo for NPCs
-            TileID.Sets.CanBeSatOnForPlayers[Type] = true; // Facilitates calling ModifySittingTargetInfo for Players
+            TileID.Sets.CanBeSatOnForNPCs[Type] = true;
+            TileID.Sets.CanBeSatOnForPlayers[Type] = true;
             TileID.Sets.DisableSmartCursor[Type] = true;
 
             AddToArray(ref TileID.Sets.RoomNeeds.CountsAsChair);

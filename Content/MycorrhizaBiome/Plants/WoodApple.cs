@@ -3,6 +3,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
+//Why is the sprite fucked
+
 namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
 {
 	public class WoodApple : ModItem

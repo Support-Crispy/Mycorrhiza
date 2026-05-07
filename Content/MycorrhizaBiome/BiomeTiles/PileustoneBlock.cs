@@ -9,10 +9,26 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles
         public new string LocalizationCategory => "Items";
         public override void SetStaticDefaults()
         {
+
             Item.ResearchUnlockCount = 100;
         }
 
         public override void SetDefaults() => Item.DefaultToPlaceableTile(ModContent.TileType<PileustoneBlockPlaced>());
+
+        public override void AddRecipes()
+        {
+            CreateRecipe().
+                AddIngredient<PileustoneBlockWall>(4).
+                AddTile(TileID.WorkBenches).
+                DisableDecraft().
+                Register();
+
+            CreateRecipe().
+                AddIngredient<MycorrhizaShelfWall>(4).
+                AddTile(TileID.WorkBenches).
+                DisableDecraft().
+                Register();
+        }
 
     }
 }

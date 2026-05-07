@@ -14,5 +14,13 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles
 
         public override void SetDefaults() => Item.DefaultToPlaceableTile(ModContent.TileType<PileustoneBrickPlaced>());
 
+        public override void AddRecipes()
+        {
+            CreateRecipe().
+                AddIngredient<PileustoneBlock>(2).
+                AddTile(TileID.Furnaces).
+                Register();
+        }
+
     }
 }

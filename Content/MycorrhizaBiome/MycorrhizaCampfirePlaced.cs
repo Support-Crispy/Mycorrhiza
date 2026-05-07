@@ -15,14 +15,12 @@ using Terraria.Utilities;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome
 {
-    // Campfires are special tiles that support the block swap feature and the biome torch feature. ExampleSurfaceBiome shows how the biome campfire is assigned.
     public class MycorrhizaCampfirePlaced : ModTile
     {
         private Asset<Texture2D> flameTexture;
 
         public override void SetStaticDefaults()
         {
-            // Properties
             Main.tileLighted[Type] = true;
             Main.tileFrameImportant[Type] = true;
             Main.tileWaterDeath[Type] = true;
@@ -33,15 +31,12 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
 
             AdjTiles = [TileID.Campfire];
 
-            // Placement
             TileObjectData.newTile.CopyFrom(TileObjectData.GetTileData(TileID.Campfire, 0));
             TileObjectData.newTile.StyleLineSkip = 9;
             TileObjectData.addTile(Type);
 
-            // Etc
             AddMapEntry(new Color(254, 121, 2), Language.GetText("ItemName.Campfire"));
 
-            // Assets
             flameTexture = ModContent.Request<Texture2D>(Texture + "_Flame");
 
             DustType = ModContent.DustType<Dusts.SporewoodDust>();
@@ -87,7 +82,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
             ToggleTile(i, j);
         }
 
-        // Note that TileFrameY doesn't necessarily match up with the image that is drawn, AnimateTile and AnimateIndividualTile contribute to the drawing decisions.
         public void ToggleTile(int i, int j)
         {
             Tile tile = Main.tile[i, j];
@@ -120,7 +114,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
             if (++frameCounter >= 4)
             {
                 frameCounter = 0;
-                // We animate through the 1st 8 frames. The 9th frame is manually drawn if in the "off" state so it is not included in the animation logic here.
                 frame = ++frame % 8;
             }
         }
@@ -133,18 +126,14 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
             }
             else
             {
-                // When in the "off" state, TileFrameY of the top tile is 36.
-                // Since we want to draw the 9th animation frame when "off", we need to offset the TileFrameY value by 252. (Because 8 * 36 == 288 and 36 + 252 == 288)
                 frameYOffset = 252;
             }
         }
 
         public override void EmitParticles(int i, int j, Tile tileCache, short tileFrameX, short tileFrameY, Color tileLight, bool visible)
         {
-            // Unlike a typical tile, campfire tiles intentionally still spawn dust even when the tile is invisible. This means we do NOT check visible as other examples do.
 
             Tile tile = Main.tile[i, j];
-            // Only emit dust from the top tiles, and only if toggled on. This logic limits dust spawning under different conditions.
             if (tile.TileFrameY == 0 && Main.rand.NextBool(3))
             {
                 Dust dust = Dust.NewDustDirect(new Vector2(i * 16 + 2, j * 16 - 4), 4, 8, DustID.Smoke, 0f, 0f, 100);
@@ -197,12 +186,11 @@ namespace Mycorrhiza.Content.MycorrhizaBiome
                 int addFrX = 0;
                 int addFrY = 0;
 
-                TileLoader.SetDrawPositions(i, j, ref width, ref offsetY, ref height, ref frameX, ref frameY); // calculates the draw offsets
-                TileLoader.SetAnimationFrame(Type, i, j, ref addFrX, ref addFrY); // calculates the animation offsets
+                TileLoader.SetDrawPositions(i, j, ref width, ref offsetY, ref height, ref frameX, ref frameY);
+                TileLoader.SetAnimationFrame(Type, i, j, ref addFrX, ref addFrY); 
 
                 Rectangle drawRectangle = new Rectangle(tile.TileFrameX, tile.TileFrameY + addFrY, 16, 16);
 
-                // The flame is manually drawn separate from the tile texture so that it can be drawn at full brightness.
                 spriteBatch.Draw(flameTexture.Value, new Vector2(i * 16 - (int)Main.screenPosition.X, j * 16 - (int)Main.screenPosition.Y + offsetY) + zero, drawRectangle, color, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
             }
         }

@@ -2,6 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
+//Placeholder, finish me!
+
 namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
 
 {

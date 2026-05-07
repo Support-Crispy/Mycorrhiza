@@ -13,8 +13,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
 
         public override void SetDefaults()
         {
-            // This method quickly sets the whip's properties.
-            // Mouse over to see its parameters.
+
             Item.DefaultToWhip(ModContent.ProjectileType<FusariumWhip>(), 20, 2, 4);
             Item.rare = ItemRarityID.Green;
             Item.channel = true;
@@ -28,7 +27,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.HyphumEquipment
                 Register();
         }
 
-        // Makes the whip receive melee prefixes
         public override bool MeleePrefix()
         {
             return true;
