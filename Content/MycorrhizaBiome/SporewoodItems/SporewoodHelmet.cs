@@ -16,7 +16,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
         {
             Item.width = 22;
             Item.height = 20;
-            Item.value = Item.sellPrice(silver: 75);
             Item.defense = 1;
         }
 
