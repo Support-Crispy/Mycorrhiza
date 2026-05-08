@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.ModLoader;
+using Terraria.ID;
 
 namespace Mycorrhiza.Content;
 

@@ -510,6 +510,26 @@ Mods: {
 				DisplayName: Vereyfin
 				Tooltip: ""
 			}
+
+			PlatedRing: {
+				Tooltip: ""
+				DisplayName: Plated Ring
+			}
+
+			FruitingBody: {
+				Tooltip: ""
+				DisplayName: Fruiting Body
+			}
+
+			DispersionWand: {
+				Tooltip: ""
+				DisplayName: Dispersion Wand
+			}
+
+			Cordycep: {
+				Tooltip: ""
+				DisplayName: Cordycep
+			}
 		}
 
 		Tiles: {

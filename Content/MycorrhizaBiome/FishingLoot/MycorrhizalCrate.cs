@@ -2,6 +2,9 @@ using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.ObjectData;
+using Microsoft.Xna.Framework;
+using Terraria.GameContent.ItemDropRules;
 using Mycorrhiza.Content;
 using Mycorrhiza.Content.MycorrhizaBiome.OrbLoot;
 

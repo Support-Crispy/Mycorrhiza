@@ -17,7 +17,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.SporewoodItems
         {
             CreateRecipe().
                 AddIngredient<Sporewood>(8).
-                AddRecipeGroup("IronBars",2).
+                AddRecipeGroup(RecipeGroupID.IronBar, 2).
                 AddTile(TileID.WorkBenches).
                 Register();
         }

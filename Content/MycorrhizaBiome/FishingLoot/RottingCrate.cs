@@ -2,12 +2,16 @@ using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.ObjectData;
+using Microsoft.Xna.Framework;
+using Terraria.GameContent.ItemDropRules;
 using Mycorrhiza.Content;
+using Mycorrhiza.Content.MycorrhizaBiome.HyphalSparks;
 using Mycorrhiza.Content.MycorrhizaBiome.OrbLoot;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.FishingLoot
 {
-    public class MycorrhizalCrate : ModItem
+    public class RottingCrate : ModItem
     {
         public override void SetStaticDefaults() => Item.ResearchUnlockCount = 5;
 
@@ -29,7 +33,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.FishingLoot
             var main = ItemDropRule.OneFromOptions(1, dropOptions);
 
             CrateHelper.BiomeCrate(itemLoot, main, ItemDropRule.NotScalingWithLuck(ItemID.SoulofNight, 2, 2, 5),
-                ItemDropRule.NotScalingWithLuck(ModContent.ItemType<HyphalSparks>(), 2, 2, 5));
+                ItemDropRule.NotScalingWithLuck(ModContent.ItemType<HyphalSparks.HyphalSparks>(), 2, 2, 5));
         }
     }
 

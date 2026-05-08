@@ -17,7 +17,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
         {
             CreateRecipe().
                 AddIngredient<MoldBlock>(8).
-                AddRecipeGroup("IronBars",2).
+                AddRecipeGroup(RecipeGroupID.IronBar, 2).
                 AddTile(TileID.WorkBenches).
                 Register();
         }
