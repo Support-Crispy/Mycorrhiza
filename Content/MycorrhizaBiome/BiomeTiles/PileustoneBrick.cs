@@ -20,6 +20,11 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles
                 AddIngredient<PileustoneBlock>(2).
                 AddTile(TileID.Furnaces).
                 Register();
+
+            CreateRecipe().
+                AddIngredient<PileustoneBrickWall>(4).
+                AddTile(TileID.WorkBenches).
+                Register();
         }
 
     }

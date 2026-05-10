@@ -530,30 +530,35 @@ Mods: {
 				Tooltip: ""
 				DisplayName: Cordycep
 			}
+
+			PileustoneBrickWall: {
+				DisplayName: Pileustone Brick Wall
+				Tooltip: ""
+			}
 		}
 
 		Tiles: {
 			SporewoodChestPlaced: {
-				Locked: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.Locked
-				MapEntry1: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.MapEntry1
-				MapEntry0: Mods.Mycorrhiza.Tiles.SporewoodChestPlaced.MapEntry0
+				Locked: Locked Sporewood Chest
+				MapEntry1: Sporewood Chest
+				MapEntry0: Sporewood Chest
 			}
 
 			HyphumOrePlaced.MapEntry: Hyphum Ore Placed
 
 			MoldChestPlaced: {
-				MapEntry0: Mods.Mycorrhiza.Tiles.MoldChestPlaced.MapEntry0
-				MapEntry1: Mods.Mycorrhiza.Tiles.MoldChestPlaced.MapEntry1
-				Locked: Mods.Mycorrhiza.Tiles.MoldChestPlaced.Locked
+				MapEntry0: Mold Chest
+				MapEntry1: Mold Chest
+				Locked: Locked Mold Chest
 			}
 
-			MoldDresserPlaced.MapEntry: Mold Dresser Placed
-			SporewoodDresserPlaced.MapEntry: Sporewood Dresser Placed
-			PileustoneBlockPlaced.MapEntry: Pileustone Block Placed
-			MoldyGrassPlaced.MapEntry: Moldy Grass Placed
-			HardenedPileusandBlockPlaced.MapEntry: Hardened Pileusand Block Placed
-			PileusandstoneBlockPlaced.MapEntry: Pileusandstone Block Placed
-			PileustoneBrickPlaced.MapEntry: Pileustone Brick Placed
+			MoldDresserPlaced.MapEntry: Mold Dresser
+			SporewoodDresserPlaced.MapEntry: Sporewood Dresser
+			PileustoneBlockPlaced.MapEntry: Pileustone Block
+			MoldyGrassPlaced.MapEntry: Moldy Grass
+			HardenedPileusandBlockPlaced.MapEntry: Hardened Pileusand Block
+			PileusandstoneBlockPlaced.MapEntry: Pileusandstone Block
+			PileustoneBrickPlaced.MapEntry: Pileustone Brick
 		}
 
 		NPCs: {
@@ -568,7 +573,7 @@ Mods: {
 		Biomes: {
 			MycorrhizaBiome: {
 				DisplayName: Mycorrhiza Biome
-				TownNPCDialogueName: the Mycorrhiza Biome
+				TownNPCDialogueName: the Mycorrhiza
 			}
 		}
 
@@ -579,6 +584,16 @@ Mods: {
 			Pileusandball.DisplayName: Pileusandball
 			MycorrhizaPowderProjectile.DisplayName: Mycorrhiza Powder Projectile
 			VitriolicPowderSpray.DisplayName: Vitriolic Powder Spray
+			ThePuppeteerBobber.DisplayName: The Puppeteer Bobber
+		}
+
+		AltBiomes: {
+			MycorrhizaBiomeType: {
+				DryadTextDescriptor: Mycorrhiza Biome Type
+				GenPassName: Mycorrhiza Biome Type
+				Description: Mycorrhiza Biome Type
+				DisplayName: Mycorrhiza Biome Type
+			}
 		}
 	}
 }
