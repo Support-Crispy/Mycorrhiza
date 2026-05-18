@@ -6,15 +6,14 @@ using Microsoft.Xna.Framework;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
 {
-    public class MoldyGrassPlaced : ModTile
+    public class MoldyJungleGrassPlaced : ModTile
     {
         public override void SetStaticDefaults()
         {
             Main.tileSolid[Type] = true;
             Main.tileBlockLight[Type] = true;
-            Main.tileMergeDirt[Type] = true;
-            Main.tileMerge[TileID.Dirt][Type] = true;
-            Main.tileMerge[Type][TileID.Dirt] = true;
+            Main.tileMerge[TileID.Mud][Type] = true;
+            Main.tileMerge[Type][TileID.Mud] = true;
             TileID.Sets.Grass[Type] = true;
             TileID.Sets.NeedsGrassFraming[Type] = true;
             AddMapEntry(new Color(100, 150, 100));
@@ -43,27 +42,15 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
                     int targetX = i + x;
                     int targetY = j + y;
                     if (WorldGen.InWorld(targetX, targetY) &&
-                        Main.tile[targetX, targetY].TileType == TileID.Dirt &&
+                        Main.tile[targetX, targetY].TileType == TileID.Mud &&
                         Main.tile[targetX, targetY].HasTile &&
                         IsExposedToAir(targetX, targetY))
                     {
-                        Main.tile[targetX, targetY].TileType = (ushort)ModContent.TileType<MoldyGrassPlaced>();
+                        Main.tile[targetX, targetY].TileType = (ushort)ModContent.TileType<MoldyJungleGrassPlaced>();
                         WorldGen.TileFrame(targetX, targetY);
-                    } 
+                    }
                 }
             }
-
-            if (!Main.tile[i, j - 1].HasTile && !Main.tile[i, j - 2].HasTile && Main.rand.NextBool(8))
-            {
-                int largePlantStyle = Main.rand.Next(12);
-                WorldGen.PlaceObject(i, j - 1, ModContent.TileType<MycorrhizaLargePlants>(), true, largePlantStyle);
-            }
-            else if (!Main.tile[i, j - 1].HasTile && Main.rand.NextBool(4))
-            {
-                int smallPlantStyle = Main.rand.Next(7);
-                WorldGen.PlaceObject(i, j - 1, ModContent.TileType<MycorrhizaSmallPlants>(), true, smallPlantStyle);
-            }
-
         }
 
         public override void Convert(int i, int j, int conversionType)
@@ -72,16 +59,16 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
             {
                 case BiomeConversionID.PurificationPowder:
                 case BiomeConversionID.Purity:
-                    WorldGen.ConvertTile(i, j, TileID.Grass);
+                    WorldGen.ConvertTile(i, j, TileID.JungleGrass);
                     return;
                 case BiomeConversionID.Corruption:
-                    WorldGen.ConvertTile(i, j, TileID.CorruptGrass);
+                    WorldGen.ConvertTile(i, j, TileID.CorruptJungleGrass);
                     return;
                 case BiomeConversionID.Crimson:
-                    WorldGen.ConvertTile(i, j, TileID.CrimsonGrass);
+                    WorldGen.ConvertTile(i, j, TileID.CrimsonJungleGrass);
                     return;
                 case BiomeConversionID.Hallow:
-                    WorldGen.ConvertTile(i, j, TileID.HallowedGrass);
+                    WorldGen.ConvertTile(i, j, TileID.JungleGrass);
                     return;
             }
             WorldGen.SquareTileFrame(i, j);
@@ -94,7 +81,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
             if (!effectOnly)
             {
                 fail = true;
-                Main.tile[i, j].TileType = TileID.Dirt;
+                Main.tile[i, j].TileType = TileID.Mud;
                 WorldGen.TileFrame(i, j);
                 if (Main.netMode != NetmodeID.SinglePlayer)
                     NetMessage.SendTileSquare(-1, i, j, 1);

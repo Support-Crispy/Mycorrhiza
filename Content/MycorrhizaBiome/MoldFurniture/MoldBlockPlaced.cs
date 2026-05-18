@@ -12,7 +12,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MoldFurniture
         public override void SetStaticDefaults()
         {
             Main.tileSolid[Type] = true;
-            Main.tileMergeDirt[Type] = false;
+            Main.tileMergeDirt[Type] = true;
             Main.tileBlockLight[Type] = true;
             HitSound = SoundID.Dig;
             AddMapEntry(new Color(0, 0, 0));

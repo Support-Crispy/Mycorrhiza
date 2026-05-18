@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework;
 using Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles;
 using Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles.Desert;
+using Mycorrhiza.Content.MycorrhizaBiome.BiomeTiles.Ice;
 using Mycorrhiza.Content.MycorrhizaBiome.Dusts;
 using System;
 using Terraria;
@@ -53,6 +54,22 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
 
         public override void AI()
         {
+            if (Main.rand.NextBool(3))
+            {
+                int dust = Dust.NewDust(
+                    Projectile.position,
+                    Projectile.width,
+                    Projectile.height,
+                    ModContent.DustType<Dusts.MycoMoldDust>(),
+                    Projectile.velocity.X * 0.2f,
+                    Projectile.velocity.Y * 0.2f,
+                    100,
+                    default,
+                    1.2f
+                );
+                Main.dust[dust].noGravity = true;
+            }
+
             Point pt = Projectile.Center.ToTileCoordinates();
             WorldGen.Convert(pt.X, pt.Y, MycorrhizaConversion.ConversionType, 3);
         }
@@ -142,7 +159,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
                 return true;
             });
 
-            // Hardened Sand variants -> HardenedPileusandBlockPlaced
             TileLoader.RegisterConversion(TileID.HardenedSand, ConversionType, (i, j, type, conversionType) =>
             {
                 WorldGen.ConvertTile(i, j, ModContent.TileType<HardenedPileusandBlockPlaced>());
@@ -188,6 +204,54 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Plants
             TileLoader.RegisterConversion(TileID.HallowSandstone, ConversionType, (i, j, type, conversionType) =>
             {
                 WorldGen.ConvertTile(i, j, ModContent.TileType<PileusandstoneBlockPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.JungleGrass, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<MoldyJungleGrassPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.MushroomGrass, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<MoldyJungleGrassPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.CorruptJungleGrass, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<MoldyJungleGrassPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.CrimsonJungleGrass, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<MoldyJungleGrassPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.IceBlock, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<GreyIceBlockPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.CorruptIce, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<GreyIceBlockPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.FleshIce, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<GreyIceBlockPlaced>());
+                return true;
+            });
+
+            TileLoader.RegisterConversion(TileID.HallowedIce, ConversionType, (i, j, type, conversionType) =>
+            {
+                WorldGen.ConvertTile(i, j, ModContent.TileType<GreyIceBlockPlaced>());
                 return true;
             });
         }

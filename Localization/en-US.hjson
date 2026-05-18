@@ -535,6 +535,11 @@ Mods: {
 				DisplayName: Pileustone Brick Wall
 				Tooltip: ""
 			}
+
+			GreyIceBlock: {
+				Tooltip: ""
+				DisplayName: Grey Ice Block
+			}
 		}
 
 		Tiles: {
@@ -559,6 +564,7 @@ Mods: {
 			HardenedPileusandBlockPlaced.MapEntry: Hardened Pileusand Block
 			PileusandstoneBlockPlaced.MapEntry: Pileusandstone Block
 			PileustoneBrickPlaced.MapEntry: Pileustone Brick
+			GreyIceBlockPlaced.MapEntry: Grey Ice Block Placed
 		}
 
 		NPCs: {
@@ -568,6 +574,8 @@ Mods: {
 			ParasitizedBunny.DisplayName: Parasitized Bunny
 			Sporewalker.DisplayName: Sporewalker
 			ParasitizedPenguin.DisplayName: Parasitized Penguin
+			FungalSelachian.DisplayName: Fungal Selachian
+			Sporecrawler.DisplayName: Sporecrawler
 		}
 
 		Biomes: {
