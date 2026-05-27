@@ -1,3 +1,5 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using Terraria;
 using Terraria.GameContent.Bestiary;
@@ -25,7 +27,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Enemies.Puffball
             NPC.lifeMax = 130;
             NPC.knockBackResist = 1f;
             NPC.value = Item.buyPrice(silver: 3);
-            NPC.alpha = 255;
             NPC.lavaImmune = false;
             NPC.noGravity = false;
             NPC.noTileCollide = false;
@@ -61,6 +62,22 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Enemies.Puffball
                 return 0f;
             }
             return SpawnCondition.Corruption.Chance * 0.15f;
+        }
+
+        public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+        {
+            Texture2D Texture = ModContent.Request<Texture2D>(this.Texture).Value;
+            Vector2 DrawPos = NPC.Center - screenPos;
+
+            Rectangle Frame = Texture.Frame(1, 1, 0, 0);
+            Vector2 Origin = Frame.Size() / 2;
+
+            SpriteEffects flip = NPC.spriteDirection == 1 ? SpriteEffects.None : SpriteEffects.FlipHorizontally;
+
+            Main.EntitySpriteDraw(Texture, DrawPos * NPC.Opacity, Frame, drawColor, NPC.rotation, Origin, NPC.scale, flip);
+
+
+            return false;
         }
     }
 }

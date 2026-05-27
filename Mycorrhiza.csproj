@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Tomat.Terraria.ModLoader.Sdk/2.1.0">
 
 	<!-- Import tModLoader mod properties -->
 	<Import Project="..\tModLoader.targets" />
@@ -7,10 +7,55 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+	  <Compile Include="obj\Debug\net8.0\Mycorrhiza.AssemblyInfo.cs" />
+	  <Compile Include="obj\Release\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+	  <Compile Include="obj\Release\net8.0\Mycorrhiza.AssemblyInfo.cs" />
+	</ItemGroup>
 
 	<!-- References -->
 	<ItemGroup>
-		
+	  <Folder Include="Content\NewFolder\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.AssemblyInfoInputs.cache" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.assets.cache" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.csproj.AssemblyReference.cache" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.csproj.BuildWithSkipAnalyzers" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.csproj.CoreCompileInputs.cache" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.csproj.Up2Date" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.dll" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.GeneratedMSBuildEditorConfig.editorconfig" />
+	  <None Include="obj\Debug\net8.0\Mycorrhiza.pdb" />
+	  <None Include="obj\Debug\net8.0\PublicizedAssemblies\tModLoader.7BA7068EDDCAF75AAA4DBEC5E9E65CF1\tModLoader.dll" />
+	  <None Include="obj\Debug\net8.0\refint\Mycorrhiza.dll" />
+	  <None Include="obj\Debug\net8.0\ref\Mycorrhiza.dll" />
+	  <None Include="obj\Mycorrhiza.csproj.nuget.g.props" />
+	  <None Include="obj\Mycorrhiza.csproj.nuget.g.targets" />
+	  <None Include="obj\project.nuget.cache" />
+	  <None Include="obj\Release\net8.0\Mycorrhiza.AssemblyInfoInputs.cache" />
+	  <None Include="obj\Release\net8.0\Mycorrhiza.assets.cache" />
+	  <None Include="obj\Release\net8.0\Mycorrhiza.csproj.AssemblyReference.cache" />
+	  <None Include="obj\Release\net8.0\Mycorrhiza.GeneratedMSBuildEditorConfig.editorconfig" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <LocalizationCompile Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ShaderCompile Remove="obj\**" />
 	</ItemGroup>
 
 </Project>

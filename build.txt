@@ -1,4 +1,4 @@
 displayName = Mycorrhiza
 author = JamiesJam and Support Crispy
 version = 0.1
-modReferences = AltLibrary
+modReferences = AltLibrary, BreadLibrary
