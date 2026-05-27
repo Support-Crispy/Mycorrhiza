@@ -94,7 +94,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Enemies.Sporecrawler
                 AITimer = 0;
                 return;
             }
-
+            NPC.velocity += NPC.DirectionTo(target.Center)*0.1f;
+            Collision.StepUp(ref NPC.position, ref NPC.velocity , NPC.width, NPC.height, ref NPC.stepSpeed, ref NPC.gfxOffY);
             NPC.velocity.X = WalkSpeed * NPC.direction;
         }
 

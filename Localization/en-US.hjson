@@ -576,6 +576,7 @@ Mods: {
 			ParasitizedPenguin.DisplayName: Parasitized Penguin
 			FungalSelachian.DisplayName: Fungal Selachian
 			Sporecrawler.DisplayName: Sporecrawler
+			MycoBoss_NPC.DisplayName: ChorusBoss
 		}
 
 		Biomes: {
