@@ -25,6 +25,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
         public override void SetStaticDefaults()
         {
             NPCID.Sets.MustAlwaysDraw[Type] = true;
+            LoadAssets();
             Path = this.GetPath();
         }
         public override void SetDefaults()
