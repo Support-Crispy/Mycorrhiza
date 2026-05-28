@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Terraria;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
 {
@@ -21,7 +23,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
 
         public override void PostAI()
         {
-            base.PostAI();
+            UpdateTendrils();
         }
 
     }

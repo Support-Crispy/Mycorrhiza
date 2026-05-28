@@ -8,16 +8,38 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
 {
     public partial class MycoBoss_NPC : ModNPC
     {
-        private static void LoadAssets()
+        public override void BossHeadSlot(ref int index)
         {
-            //Corpses = ModContent.Request<Texture2D>("Mycorrhiza/Content/MycorrhizaBiome/MycoBoss/Boss/MycoBoss_Corpse");
+
         }
 
-        private static Asset<Texture2D> Corpses;
+        private static void LoadAssets()
+        {
+            Corpses = new List<Asset<Texture2D>>();
+        }
+        /// <summary>
+        /// To Contain all the textures used on the tendrils.
+        /// </summary>
+        private static List<Asset<Texture2D>> Corpses;
 
+
+
+        public void RenderTendrils(SpriteBatch spriteBatch, Vector2 screenPos, ref Color drawColor)
+        {
+            if(Tendrils is null)
+            {
+                return;
+            }
+            foreach (var tendril in Tendrils)
+            {
+                tendril.Draw(spriteBatch, screenPos, drawColor, NPC.Center);
+            }
+
+        }
 
         public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
+            RenderTendrils(spriteBatch, screenPos, ref drawColor);
             return base.PreDraw(spriteBatch, screenPos, drawColor);
         }
     }
