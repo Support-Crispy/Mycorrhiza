@@ -577,6 +577,7 @@ Mods: {
 			FungalSelachian.DisplayName: Fungal Selachian
 			Sporecrawler.DisplayName: Sporecrawler
 			MycoBoss_NPC.DisplayName: ChorusBoss
+			DanglingSporeWalker.DisplayName: Sporewalker
 		}
 
 		Biomes: {

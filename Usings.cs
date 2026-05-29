@@ -7,3 +7,5 @@ global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
 global using Terraria.ModLoader;
+global using Terraria;
+global using Terraria.Graphics.Renderers;

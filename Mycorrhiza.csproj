@@ -16,9 +16,7 @@
 
 	<!-- References -->
 	<ItemGroup>
-	  <Folder Include="Content\NewFolder\" />
 	  <Folder Include="Core\" />
-	  <Folder Include="Assets\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include="obj\Debug\net8.0\Mycorrhiza.AssemblyInfoInputs.cache" />
