@@ -29,6 +29,8 @@ namespace Mycorrhiza.Content.Particles
             rot += 0.1f;
             Rotation = rot.ToRotationVector2();
             Position += Collision.TileCollision(Position, Velocity, 1, 1, true);
+
+            Velocity *= 0.98f;
             if (TimeLeft-- <= 0)
             {
                 ShouldBeRemovedFromRenderer = true;

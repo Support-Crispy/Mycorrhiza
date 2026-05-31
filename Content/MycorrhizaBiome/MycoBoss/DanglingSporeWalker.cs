@@ -1,5 +1,6 @@
 ﻿using BreadLibrary.Core.Graphics;
 using BreadLibrary.Core.Graphics.Particles;
+using BreadLibrary.Core.ScreenShake;
 using BreadLibrary.Core.Utilities;
 using Mycorrhiza.Content.MycorrhizaBiome.Enemies.Sporewalker;
 using Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
+using Terraria.Audio;
 using Terraria.DataStructures;
 using Terraria.ID;
 
@@ -47,9 +49,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
                 }
                 return null;
             }
-        } 
+        }
 
-
+        private int StoredLife;
         public override void SetStaticDefaults()
         {
             Main.npcFrameCount[NPC.type] = 5;
@@ -60,7 +62,9 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
         {
             NPC.CloneDefaults(ModContent.NPCType<Sporewalker>());
 
+            NPC.Size = new(50);
             NPC.value = 0;
+            StoredLife = NPC.lifeMax;
 
 
 
@@ -69,6 +73,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
             NPC.knockBackResist = 0.0f;
             NPC.aiStyle = -1;
             AIType = -1;
+            NPC.ShowNameOnHover = false;
             NPC.noGravity = true;
         }
 
@@ -82,26 +87,18 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
                 }
             }
 
-            if (Owner is not null)
-            {
-                foreach(MycoTendril tendril in Owner.Tendrils)
-                {
-                    if (tendril.HasNPC)
-                    {
-                        continue;
-                    }
-
-                    else
-                        {
-                        TentacleID = tendril.Index;
-                        tendril.HasNPC = true;
-                        break;
-                    }
-                }
-            }
+          
+            
 
             NPC.spriteDirection = Main.rand.NextBool() ? 1 : -1;
             NPC.frame.X = Main.rand.Next(0, 3);
+        }
+        public override bool? DrawHealthBar(byte hbPosition, ref float scale, ref Vector2 position)
+        {
+            if (Falling | OnGround)
+
+                return base.DrawHealthBar(hbPosition, ref scale, ref position);
+            else return false;
         }
 
         public override void AI()
@@ -125,6 +122,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
                 {
                     Falling = true;
                     
+                    
                 }
                 else
                 {
@@ -133,6 +131,8 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
                     NPC.rotation = rot;
                     NPC.Center = Owner.Tendrils[TentacleID].Chain.Positions[^1];
 
+                    NPC.realLife = _OwnerID;
+
                 }
             }
 
@@ -140,24 +140,38 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
 
             if (Falling & !OnGround)
             {
+                NPC.realLife = -1;
+                NPC.lifeMax = StoredLife;
+                NPC.life = StoredLife;
                 NPC.noGravity = false;
                 TentacleID = -1;
-
+                NPC.knockBackResist = 0.5f;
+                NPC.velocity.X *= 0.89f;
                 if (!OnGround)
                     NPC.rotation += 0.1f * NPC.spriteDirection;
-                Point? hit = BreadLibrary.Core.Utilities.Utilities.RaycastTo(NPC.Center, NPC.Bottom + new Vector2(0, 4), false, true, false);
+                Point? hit = BreadLibrary.Core.Utilities.Utilities.RaycastTo(NPC.Center, NPC.Bottom + new Vector2(0, 7), false, true, false);
+
 
                 if (hit.HasValue && !OnGround)
                 {
+                    var worldcoord = hit.Value.ToWorldCoordinates();
+
+                    
+
+
                     OnGround = true;
-                    for (int i = 0; i < 40; i++)
+                    for (int i = 0; i < 70; i++)
                     {
                         MushBoom Particle = new();
-                        Particle.Prepare(NPC.Bottom + new Vector2(0, -3), Main.rand.NextVector2Circular(3, 2) * Main.rand.NextFloat(0.1f, 2), Main.rand.NextFloat(-MathHelper.Pi, MathHelper.Pi), 50);
-                        ParticleEngine.ShaderParticles.Add(Particle);
-                    }
-                    Dust.NewDustPerfect(NPC.Bottom, ModContent.DustType<MycorrhizaWaterSplashDust>(), Main.rand.NextVector2Circular(3, 2) * Main.rand.NextFloat(0.1f, 2));
+                        Particle.Prepare(NPC.Bottom + new Vector2(0, -3), Main.rand.NextVector2Circular(3, 2) * Main.rand.NextFloat(0.1f, 2), Main.rand.NextFloat(-MathHelper.Pi, MathHelper.Pi), 60);
+                        ParticleEngine.ShaderParticles.Add(Particle, BreadLibrary.Core.Graphics.Pixelation.PixelLayer.AboveNPCs);
+                        Dust.NewDustPerfect(NPC.Bottom, ModContent.DustType<MycorrhizaWaterSplashDust>(), Main.rand.NextVector2Circular(3, 2) * Main.rand.NextFloat(0.1f, 2));
 
+                    }
+                    SoundStyle thud = Assets.Sounds.Enemies.SporewalkerImpact.Asset;
+                    SoundEngine.PlaySound(thud with { MaxInstances = 0, PitchVariance = 0.5f, Type = SoundType.Sound }, NPC.Center);
+                    ScreenShakeSystem.ShakeAt(NPC.Bottom, 2, 50);
+                   
                 }
             }
 
@@ -166,17 +180,38 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
 
             if (OnGround)
             {
+                NPC.knockBackResist = 0;
+                NPC.velocity.X *= 0;
                 Timer++;
-                NPC.rotation = NPC.rotation.AngleLerp(0, 0.06f);
+                NPC.rotation = NPC.rotation.AngleLerp(0, 0.2f);
                 NPC.position.X += Main.rand.NextFloat(-1, 1) * (Timer / 40f)*3;
                 if(Timer > 60)
                 {
+                    int CurrentLife = NPC.life;
                     NPC.CloneDefaults(ModContent.NPCType<Sporewalker>());
                     NPC.Transform(ModContent.NPCType<Sporewalker>());
+
+                    NPC.life = CurrentLife;
                 }
             }
         }
 
+        public void Drop()
+        {
+            Falling = true;
+            TentacleID = -1;
+            NPC.knockBackResist = 0.5f;
+            NPC.ShowNameOnHover = true;
+            NPC.netUpdate = true;
+        }
+
+        public override void ModifyIncomingHit(ref NPC.HitModifiers modifiers)
+        {
+            if (OnGround)
+            {
+                modifiers.TargetDamageMultiplier *= 0.3f;
+            }
+        }
 
         public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
@@ -190,13 +225,15 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
 
             Vector2 drawOrigin = sourceRect.Size() / 2f;
 
-            Vector2 drawPos = new Vector2(NPC.Center.X, NPC.Bottom.Y) - screenPos + new Vector2(0, NPC.gfxOffY);
+            Vector2 drawPos = new Vector2(NPC.Center.X, NPC.Center.Y + 15) - screenPos + new Vector2(0, NPC.gfxOffY);
 
             SpriteEffects effects = NPC.spriteDirection == 1
                 ? SpriteEffects.FlipHorizontally
                 : SpriteEffects.None;
 
+            float interp = !OnGround? 1 : Math.Clamp(Timer / 20f, 0, 1);
 
+            Vector2 scale = new Vector2(1, 1*interp) * NPC.scale;
 
 
             spriteBatch.Draw(
@@ -206,7 +243,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
                 drawColor,
                 NPC.rotation,
                 drawOrigin,
-                NPC.scale,
+                scale,
                 effects,
                 0f
             );
@@ -217,14 +254,7 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss
         public override void FindFrame(int frameHeight)
         {
             return;
-            _animationTimer++;
-            if (_animationTimer >= 5)
-            {
-                _animationTimer = 0;
-                NPC.frame.Y += frameHeight;
-                if (NPC.frame.Y >= frameHeight * 10)
-                    NPC.frame.Y = 0;
-            }
+           
         }
 
     }

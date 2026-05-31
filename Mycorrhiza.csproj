@@ -16,7 +16,7 @@
 
 	<!-- References -->
 	<ItemGroup>
-	  <Folder Include="Core\" />
+	  <Folder Include="Assets\Sounds\Enemies\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include="obj\Debug\net8.0\Mycorrhiza.AssemblyInfoInputs.cache" />

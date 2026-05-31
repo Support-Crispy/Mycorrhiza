@@ -1,12 +1,17 @@
 ﻿using BreadLibrary.Core;
+using BreadLibrary.Core.Graphics;
 using BreadLibrary.Core.Utilities;
 using Microsoft.Xna.Framework;
+using Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss.Attacks;
+using Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss.Attacks.Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss.Attacks;
+using Mycorrhiza.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
@@ -16,14 +21,38 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
 
         public override bool PreAI()
         {
+            Body.Simulate(NPC.velocity*0.6f, NPC.Center, 0, 0.6f, 10, false, 0, false, 0);
+
+
+            var referenceSpeed = 12f;
+            var maxTilt = MathHelper.ToRadians(30f);
+            var normalized = MathHelper.Clamp(NPC.velocity.X / referenceSpeed, -1f, 1f);
+            var targetRotation = normalized * maxTilt;
+            Point? Hit = Utilities.RaycastTo(NPC.Center, NPC.Center + Vector2.UnitY.RotatedBy(targetRotation) * 3000, debug: false);
+
+            if (Hit.HasValue)
+            {
+
+                Body.Positions[^1] = Hit.Value.ToWorldCoordinates();
+            }
+            if (Body.Positions[^1].Distance(Body.OldPositions[^1] ) > 2)
+            {
+                for(int i = 0; i< 10; i++)
+                {
+
+                    Vector2 SpawnPos = Vector2.Lerp(Body.Positions[^1], Body.OldPositions[^1], Main.rand.NextFloat(0,1));
+                    Vector2 Velocity = new Vector2(0, -1).RotatedBy(targetRotation + Main.rand.NextFloat(-1, 1));
+                    Dust.NewDustPerfect(SpawnPos, DustID.Dirt, Velocity * Main.rand.NextFloat(0.2f, 4));
+                }
+            }
+
             return base.PreAI();
         }
 
         public override void AI()
         {
-            CurrentAttack?.Update(this);
-            // Movement tuning
-            const float desiredHeightAboveGround = 570f; // pixels above ground to hold
+
+            float desiredHeightAboveGround = DesiredHeight;
             const float baseMaxSpeedX = 12f; // base horizontal speed cap
             const float horizontalProportional = 0.08f; // proportional gain for X
             const float horizontalLerp = 0.12f; // smoothing factor for X velocity (0..1)
@@ -37,7 +66,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
             const float speedIncreaseThresholdY = 200f; // distance at which vertical speed begins to scale
             const float maxSpeedMultiplier = 2.5f; // maximum multiplier applied to base max speeds
 
-            // Horizontal movement: move smoothly toward player's X
             Vector2 playerPos = Main.LocalPlayer.Center;
             float distanceX = playerPos.X - NPC.Center.X;
             float absDistanceX = Math.Abs(distanceX);
@@ -110,12 +138,27 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
             float effectiveMaxSpeedY = baseMaxSpeedY * vertMultiplier;
             float targetVelY = MathHelper.Clamp(distanceY * verticalProportional, -effectiveMaxSpeedY, effectiveMaxSpeedY);
             NPC.velocity.Y = MathHelper.Lerp(NPC.velocity.Y, targetVelY, verticalLerp);
+
+            CurrentAttack ??= _MycoBossAttackRegistry.Create(CurrentState);
+            CurrentAttack?.Update(this);
+
+            Timer++;
         }
 
         public override void PostAI()
         {
-            
-            
+            if (!ShouldHoldHeadStill)
+            {
+                var referenceSpeed = 12f;
+                var maxTilt = MathHelper.ToRadians(20f);
+                var normalized = MathHelper.Clamp(NPC.velocity.X / referenceSpeed, -1f, 1f);
+                var targetRotation = normalized * maxTilt;
+
+                // Slightly lerp rotation toward the horizontal-velocity-based target.
+                NPC.rotation = NPC.rotation.AngleLerp(targetRotation, 0.2f);
+
+            }
+            _lastHeadPlatform = HeadPlatform;
             UpdateTendrils();
         }
         void IMultiSegmentNPC.UpdateSegments()
@@ -129,6 +172,39 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss
             }
 
         }
+        internal class MycoBossHeadPlatformPlayer : ModPlayer
+        {
+            public override void PreUpdateMovement()
+            {
+                if (Player.controlDown)
+                    return;
 
+                if (Player.velocity.Y < 0f)
+                    return;
+
+                Rectangle feetRect = Player.getRect();
+                feetRect.Y += Player.height - 12;
+                feetRect.Height = 16;
+
+                for (int i = 0; i < Main.maxNPCs; i++)
+                {
+                    NPC npc = Main.npc[i];
+
+                    if (!npc.active || npc.type != ModContent.NPCType<MycoBoss_NPC>())
+                        continue;
+
+                    if (npc.ModNPC is not MycoBoss_NPC boss)
+                        continue;
+
+                    RotatedPlatform platform = boss.HeadPlatform;
+
+                    if (!platform.ContainsFeet(feetRect))
+                        continue;
+
+                    boss.UpdateStandingOnHead(Player);
+                    break;
+                }
+            }
+        }
     }
 }

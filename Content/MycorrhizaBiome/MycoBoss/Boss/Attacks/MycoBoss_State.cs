@@ -12,18 +12,6 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.MycoBoss.Boss.Attacks
         Debug,
         Intro,
 
-        SummonDivineBeast,
-
-
-        WindingRoots,
-        WindingRoots_Vertical,
-        SlideAlongRoots,
-        GrabBoulderAndCrushYou,
-        PetalFusillade,
-
-        FloralDescent,
-
-
-        Flourish
+        Replenish_Sporewalkers,
     }
 }
