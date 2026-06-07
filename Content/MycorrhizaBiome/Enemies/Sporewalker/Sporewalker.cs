@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Terraria.Audio;
 
 namespace Mycorrhiza.Content.MycorrhizaBiome.Enemies.Sporewalker
 {
@@ -27,12 +28,21 @@ namespace Mycorrhiza.Content.MycorrhizaBiome.Enemies.Sporewalker
             NPC.value = 150f;
             NPC.knockBackResist = 0.4f;
             NPC.aiStyle = NPCAIStyleID.Fighter;
-            AIType = NPCID.FaceMonster;
+            AIType = NPCID.AngryBones;
         }
 
         public override void AI()
         {
             NPC.spriteDirection = NPC.direction;
+            if (Main.rand.NextBool(400))
+            {
+                string path = "Mycorrhiza/Assets/Sounds/Enemies/SporeWalkers/zombie";
+                int variant = Main.rand.Next(0, 3);
+                path += variant;
+
+                SoundStyle groan = new(path);
+                SoundEngine.PlaySound(groan with { PitchVariance = 0.3f, MaxInstances = 0 }, NPC.Center);
+            }
         }
 
         public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
